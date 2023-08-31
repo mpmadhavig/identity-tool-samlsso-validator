@@ -95,11 +95,6 @@
                 <version>${carbon.kernel.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.carbon.security.mgt</groupId>
-                <artifactId>org.wso2.carbon.security.mgt</artifactId>
-                <version>${carbon.security.mgt.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>org.wso2.carbon</groupId>
                 <artifactId>org.wso2.carbon.ui</artifactId>
                 <version>${carbon.kernel.version}</version>
@@ -251,7 +246,6 @@
         <!--Carbon framework version-->
         <identity.framework.version>5.25.234</identity.framework.version>
         <carbon.identity.framework.import.version.range>[5.25.234, 7.0.0)</carbon.identity.framework.import.version.range>
-        <carbon.security.mgt.version>1.0.0</carbon.security.mgt.version>
 
         <identity.tool.samlsso.validator.import.version.range>[5.3.0, 6.0.0)</identity.tool.samlsso.validator.import.version.range>
         <identity.tool.samlsso.validator.export.version>${project.version}</identity.tool.samlsso.validator.export.version>
